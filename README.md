@@ -10,7 +10,8 @@ element is removed from the dom, which enables interaction with the container's
 content.
 
 The module take one mandatory argument, and two optional ones:
+
 **(HTMLElement) container:** The container to block;<br />
-**(String) [blockingElClass]:** Classes to attach to the appended blocking element;
+**(String) [blockingElClass]:** Classes to attach to the appended blocking element;<br />
 **(String) [blockingElStyle="bottom: 0; cursor: pointer; left: 0; position: absolute; right: 0; top: 0; z-index: 1;"]:** 
-Inline styles attached to the appended blocking element;<br/>
+Inline styles attached to the appended blocking element;
