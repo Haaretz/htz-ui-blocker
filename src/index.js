@@ -32,11 +32,13 @@ export default function blockUi(
 ) {
   const blockingEl = document.createElement('div');
 
-  blockingEl.setAttribute('style', blockingElStyle);
+  if (blockingElClass) blockingEl.setAttribute('class', blockingElClass);
+
+  if (blockingElStyle) blockingEl.setAttribute('style', blockingElStyle);
+
   blockingEl.addEventListener('click', (e) => {
     container.removeChild(blockingEl);
   });
-  if (blockingElClass) blockingEl.setAttribute('class', blockingElClass);
 
   if (
     window.getComputedStyle(container) &&
@@ -44,6 +46,7 @@ export default function blockUi(
   ) {
     container.style.position = 'relative'; // eslint-disable-line no-param-reassign
   }
+
   container.appendChild(blockingEl);
 
   return container;
