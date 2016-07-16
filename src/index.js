@@ -36,6 +36,8 @@ export default function blockUi(
 
   if (blockingElStyle) blockingEl.setAttribute('style', blockingElStyle);
 
+  blockingEl.classList.add('js-block-ui__blocking-el');
+
   blockingEl.addEventListener('click', (e) => {
     container.removeChild(blockingEl);
   });
