@@ -29,10 +29,9 @@
     "gulp-size": "^2.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-util": "^3.0.7",
-    "ink-docstrap": "^1.1.2",
     "jsdoc": "^3.4.0",
-    "jsdoc-oblivion": "0.0.4",
-    "jspm": "^0.17.0-beta.14"
+    "jspm": "^0.17.0-beta.14",
+    "loke-jsdoc-theme": "^2.1.0"
   },
   "dependencies": {},
   "jspm": {
