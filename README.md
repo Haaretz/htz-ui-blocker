@@ -15,3 +15,5 @@ The module take one mandatory argument, and two optional ones:
 **(String) [blockingElClass]:** Classes to attach to the appended blocking element;<br />
 **(String) [blockingElStyle="bottom: 0; cursor: pointer; left: 0; position: absolute; right: 0; top: 0; z-index: 1;"]:** 
 Inline styles attached to the appended blocking element;
+
+See [documentation](//haaretz.github.io/htz-block-ui/) for API and events.

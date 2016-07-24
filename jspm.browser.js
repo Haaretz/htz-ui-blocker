@@ -1,7 +1,8 @@
 SystemJS.config({
   baseURL: "/",
   paths: {
-    "htz-ui-blocker/": "src/",
-    "npm:*": "jspm_packages/npm/*"
+    "npm:": "jspm_packages/npm/",
+    "github:": "jspm_packages/github/",
+    "htz-ui-blocker/": "src/"
   }
 });

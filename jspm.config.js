@@ -1,4 +1,14 @@
 SystemJS.config({
+  nodeConfig: {
+    "paths": {
+      "htz-ui-blocker/": "src/"
+    }
+  },
+  devConfig: {
+    "map": {
+      "plugin-babel": "npm:systemjs-plugin-babel@0.0.10"
+    }
+  },
   transpiler: "plugin-babel",
   packages: {
     "htz-ui-blocker": {
@@ -15,10 +25,11 @@ SystemJS.config({
 SystemJS.config({
   packageConfigPaths: [
     "npm:@*/*.json",
-    "npm:*.json"
+    "npm:*.json",
+    "github:*/*.json"
   ],
   map: {
-    "plugin-babel": "npm:systemjs-plugin-babel@0.0.10"
+    "htz-dispatch-event": "github:haaretz/htz-dispatch-event@1.0.1"
   },
   packages: {}
 });

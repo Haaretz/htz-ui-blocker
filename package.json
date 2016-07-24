@@ -1,6 +1,6 @@
 {
   "name": "htz-ui-blocker",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A removable UI blocker",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -40,7 +40,9 @@
     "directories": {
       "lib": "src"
     },
-    "dependencies": {},
+    "dependencies": {
+      "htz-dispatch-event": "github:haaretz/htz-dispatch-event@^1.0.1"
+    },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.10"
     }
